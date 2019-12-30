@@ -1,14 +1,26 @@
 # 6-Colors-Clone
 A clone of the game "6 Colors" 
 
+## Getting Started
 
-1. 6 colors
+### Prerequisites
 
-2. Name:
-   Or Ron 
+In order to run the project you need:
+1. Visual Studio with Windows 10 SDK version 10.0.17763.0
+
+2. SFML
+
+### Installing
+
+1. Download Visual Studio from [here](https://visualstudio.microsoft.com/downloads/).
+In installation process choose "Windows 10 SDK (10.0.17763.0)" at the Individual components tab. If you have Visual Studio installed already you can download SDK from "Visual Studio Installer".
+
+2. Download sfml 2.5.0 from [here](https://drive.google.com/open?id=1_D0G_IYPpvv2JnhslLdmXZRFd6zsjqQx).
+just extract it and run "SFMLInstall.bat" as administrator (extraction path must contain english letters only).
+
  
    
-3. Prorgam explanation: 
+### Prorgam explanation: 
 
 	This Program implement the gaem 6 colors of a human player
 	playing with the computer in each turn a user can pick a color
@@ -20,7 +32,7 @@ A clone of the game "6 Colors"
 	The winner of the game is the one which gets to more than 50% of the 
 	overall board surface.
 
-4. Design:
+### Design:
 
 	there are 3 main classes:
 	square - a class which holds one square not including its graphical object
@@ -39,7 +51,7 @@ A clone of the game "6 Colors"
 
 
 
-5. List of files:
+### List of files:
 
 6colors.cpp  - holds main function and nothing more			
 common.h - Holds all the enums and consts for the program
@@ -51,18 +63,15 @@ restart.png, kid.jpg, robot.png, Gabriola.ttf - files used but the graphics
 README
 
 
-6. Main data structures:
+### Main data structures:
 	2 matrixes - one for the sqaures in class board and one for the triangles 
 	for graphical representation in the ScreenPainter class.
 	1 array for the manues of colors and restart
 
-7. Algorithms:
+### Algorithms:
 
 	Recursive algorithm to find all the squares that can be reached for
 	a player from its starting point.
 				 
 
-8. known bugs - not supporting triangles - only squares.
-
-9. comment -
-
+### known bugs - not supporting triangles - only squares.
